@@ -1,0 +1,62 @@
+/**
+ * Carob Sidebars
+ *
+ * @version  1.0
+ */
+
+.carob-sidebar-name {
+	width: 300px;
+	padding: 8px 8px 7px 8px;
+}
+
+.wp-core-ui .carob-add-sidebar {
+	height: 36px;
+	margin-left: 10px;
+	line-height: 36px;
+}
+
+.carob-sidebars-list {
+	margin-top: 10px;
+}
+
+.carob-sidebar {
+	height: 50px;
+	margin-bottom: 15px;
+	border: solid 2px #f1f1f1;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.carob-sidebar .name {
+	display: inline-block;
+	padding: 8px 15px;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.carob-sidebar .controls {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 45px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.carob-sidebar .delete-icon {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('../images/sidebars-controls-sprite.png') 0 0 no-repeat;
+}
+
+	.carob-sidebar .delete-icon:hover {
+		background-position: 0 100%;
+	}
+
+	.carob-sidebar .delete-icon:active {
+		opacity: 0.8;
+	}

@@ -1,0 +1,53 @@
+/* Switch Toggle */
+/*-------------------------------------------------------------- */
+.carob-switch-toggle {
+	width: 80px;
+	height: 36px;
+	margin-bottom: 25px;
+	border: solid 1px #dfdfdf;
+	border-radius: 20px;
+	background-color: #f7f7f7;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	
+	-webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+
+	@include single-transition( border, .2s, ease );
+
+	&.state-on {
+		
+		.carob-switch-overlay {
+			left: 0;
+		}
+
+		.carob-active-bg {
+			opacity: 1;
+		}
+	}
+}
+
+.carob-switch-overlay {
+	width: 124px;
+	height: 36px;
+	background: url('../images/switch-toggle.png');
+	position: absolute;
+	top: 0;
+	left: -44px;
+	z-index: 1;
+
+	@include single-transition( left, .2s, ease );
+}
+
+.carob-switch-toggle .carob-active-bg {
+	width: 81px;
+	height: 37px;
+	background-color: $accent;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	z-index: 0;
+	opacity: 0;
+
+	@include single-transition( opacity, .5s, ease );
+}

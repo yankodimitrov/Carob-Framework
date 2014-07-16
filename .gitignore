@@ -1,0 +1,23 @@
+# Mac OS X hidden files
+.DS_Store
+
+# Vim swap files
+.*.sw?
+
+# Pow and Powder config
+/.pow*
+
+# RVM and rbenv
+/.rvmrc
+/.rbenv-version
+
+# Bundler binstubs
+/bin/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# SASS/Compass
+.sass-cache
+.sass-cache/*

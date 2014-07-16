@@ -1,0 +1,667 @@
+/*! Carob Framework */
+/*-------------------------------------------------------------- */
+/* General */
+/*-------------------------------------------------------------- */
+.carob-clear {
+  clear: both;
+}
+
+.carob-left {
+  float: left;
+}
+
+.carob-right {
+  float: right;
+}
+
+.carob-options--meta-box {
+  min-height: 100%;
+  margin: 12px 0 0 0;
+  padding: 20px 20px 0 20px;
+  border: solid 1px #eaeaea;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#poststuff .carob-options .carob-heading,
+.carob-heading {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+#poststuff .carob-title {
+  margin-bottom: 0;
+  padding: 0;
+  border-bottom: 0;
+  font-size: 16px;
+  cursor: initial;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+.carob-line {
+  margin-bottom: 20px;
+  border-top: solid 2px #f1f1f1;
+}
+
+p.carob-description {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.carob-notice {
+  padding: 20px;
+  border-left: solid 10px #eaeaea;
+  background-color: #f8f8f8;
+}
+
+.carob-notice--info {
+  border-color: #55c5e9;
+}
+
+.carob-notification {
+  width: 360px;
+  height: 70px;
+  margin-left: -180px;
+  padding: 5px 20px;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: -90px;
+  z-index: 99999;
+}
+.carob-notification.success {
+  background-color: #7cd3c6;
+  color: #ffffff;
+}
+.carob-notification.info {
+  background-color: #55c5e9;
+  color: #ffffff;
+}
+.carob-notification p {
+  font-size: 14px;
+}
+
+#wpbody-content .carob-admin-notice {
+  max-width: 1072px;
+  margin: 20px 0 0 0;
+}
+
+/* Options Pages Styling */
+.carob-page-wrap {
+  max-width: 1100px;
+  margin: 20px 20px 20px 0;
+  border: solid 1px #e3e3e3;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.carob-page-wrap--no-sidebar {
+  max-width: 820px;
+}
+.carob-page-wrap--no-sidebar .carob-page-content {
+  margin-left: 0;
+  border-left: none;
+}
+
+.carob-page-header {
+  padding: 20px 20px 0 20px;
+  border-bottom: solid 6px #55c5e9;
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+}
+.carob-page-header .title {
+  margin-top: 0;
+}
+
+.carob-header h3 {
+  margin-top: 0;
+}
+
+.carob-page-content-wrap {
+  min-height: 500px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.carob-page-content {
+  min-height: 500px;
+  margin-left: 189px;
+  padding: 20px 20px 0 20px;
+  border-left: solid 1px #e3e3e3;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.carob-toolbar {
+  padding: 20px;
+  border-top: solid 4px #f1f1f1;
+  border-radius: 0 0 5px 5px;
+  background-color: #ffffff;
+}
+
+.carob-page-sidebar {
+  width: 190px;
+  min-height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.carob-page-menu {
+  margin-top: 0;
+}
+
+.carob-menu-item {
+  margin-bottom: 0;
+  border-bottom: solid 1px #dfdfdf;
+  font-size: 14px;
+}
+.carob-menu-item.current, .carob-menu-item:hover {
+  border-right: solid 1px #ffffff;
+  background-color: #ffffff;
+}
+.carob-menu-item.current a, .carob-menu-item:hover a {
+  color: #303030;
+}
+.carob-menu-item a {
+  display: block;
+  padding: 12px 12px 12px 20px;
+  color: #a5a5a5;
+  font-size: 14px;
+  text-decoration: none;
+}
+.carob-menu-item a:active {
+  outline: none;
+}
+
+/* Text */
+/*-------------------------------------------------------------- */
+.carob-input {
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.carob-input:focus {
+  outline: none;
+}
+.carob-input:disabled {
+  color: #dddddd;
+  background-color: #f1f1f1;
+}
+
+.carob-input--small {
+  width: 100px;
+}
+
+.carob-input--medium {
+  width: 300px;
+}
+
+/* Checkbox */
+/*-------------------------------------------------------------- */
+.carob-options .carob-checkbox,
+.carob-options .carob-radio {
+  margin: -18px 10px 0 0;
+}
+
+.carob-label {
+  display: inline-block;
+  margin: 0 30px 20px 0;
+}
+
+/* Select */
+/*-------------------------------------------------------------- */
+.carob-select {
+  margin-bottom: 20px;
+}
+
+/* Editor */
+/*-------------------------------------------------------------- */
+.carob-editor {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* Select Image Option */
+/*-------------------------------------------------------------- */
+.carob-select-image-option {
+  margin-bottom: 20px;
+}
+.carob-select-image-option li {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  margin: 10px 30px 15px 0;
+}
+.carob-select-image-option li a {
+  display: block;
+  width: 120px;
+  height: 80px;
+  border: solid 5px #f1f1f1;
+  border-radius: 3px;
+}
+.carob-select-image-option li.selected a,
+.carob-select-image-option li a:hover {
+  background-color: #55c5e9;
+  border-color: #55c5e9;
+}
+.carob-select-image-option li a:active {
+  outline: none;
+}
+
+/* Slider Input */
+/*-------------------------------------------------------------- */
+.carob-ui-slider {
+  width: 320px;
+  height: 10px;
+  margin-top: 10px;
+  border: solid 1px #eaeaea;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  position: relative;
+  float: left;
+}
+.carob-ui-slider .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  margin-left: -4px;
+  border: solid 1px #e3e3e3;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  cursor: ew-resize;
+  z-index: 10;
+}
+.carob-ui-slider .ui-slider-handle:active,
+.carob-ui-slider .ui-slider-handle:focus {
+  outline: none;
+}
+.carob-ui-slider .ui-slider-range {
+  height: 10px;
+  border: solid 1px #55c5e9;
+  border-radius: 5px;
+  background-color: #55c5e9;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+
+.carob-ui-slider-field {
+  width: 60px;
+  margin-right: 15px;
+  float: left;
+}
+
+/* Color Picker */
+/*-------------------------------------------------------------- */
+.carob-color-picker {
+  display: inline-block;
+  width: 65px;
+  float: left;
+}
+
+.carob-color-picker-preview {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 1px;
+  border: solid 1px #eaeaea;
+  border-radius: 3px;
+  float: left;
+}
+
+.colorpicker {
+  width: 356px;
+  height: 176px;
+  overflow: hidden;
+  position: absolute;
+  background: url(../images/colorpicker/colorpicker_background.png);
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  display: none;
+  z-index: 999999;
+}
+
+.colorpicker_color {
+  width: 150px;
+  height: 150px;
+  left: 14px;
+  top: 13px;
+  position: absolute;
+  background: #f00;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.colorpicker_color div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: url(../images/colorpicker/colorpicker_overlay.png);
+}
+
+.colorpicker_color div div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 11px;
+  height: 11px;
+  overflow: hidden;
+  background: url(../images/colorpicker/colorpicker_select.gif);
+  margin: -5px 0 0 -5px;
+}
+
+.colorpicker_hue {
+  position: absolute;
+  top: 13px;
+  left: 171px;
+  width: 35px;
+  height: 150px;
+  cursor: n-resize;
+}
+
+.colorpicker_hue div {
+  position: absolute;
+  width: 35px;
+  height: 9px;
+  overflow: hidden;
+  background: url(../images/colorpicker/colorpicker_indic.gif) left top;
+  margin: -4px 0 0 0;
+  left: 0px;
+}
+
+.colorpicker_new_color {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  left: 213px;
+  top: 13px;
+  background: #f00;
+}
+
+.colorpicker_current_color {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  left: 283px;
+  top: 13px;
+  background: #f00;
+}
+
+.colorpicker input {
+  background-color: transparent;
+  border: 1px solid transparent !important;
+  position: absolute;
+  font-size: 10px;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #898989;
+  top: 1px;
+  right: 11px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+.colorpicker_hex {
+  position: absolute;
+  width: 72px;
+  height: 22px;
+  background: url(../images/colorpicker/colorpicker_hex.png) top;
+  left: 212px;
+  top: 142px;
+}
+
+.colorpicker_hex input {
+  right: 6px;
+}
+
+.colorpicker_field {
+  height: 22px;
+  width: 62px;
+  background-position: top;
+  position: absolute;
+}
+
+.colorpicker_field span {
+  position: absolute;
+  width: 12px;
+  height: 22px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  cursor: n-resize;
+}
+
+.colorpicker_rgb_r {
+  background-image: url(../images/colorpicker/colorpicker_rgb_r.png);
+  top: 52px;
+  left: 212px;
+}
+
+.colorpicker_rgb_g {
+  background-image: url(../images/colorpicker/colorpicker_rgb_g.png);
+  top: 82px;
+  left: 212px;
+}
+
+.colorpicker_rgb_b {
+  background-image: url(../images/colorpicker/colorpicker_rgb_b.png);
+  top: 112px;
+  left: 212px;
+}
+
+.colorpicker_hsb_h {
+  background-image: url(../images/colorpicker/colorpicker_hsb_h.png);
+  top: 52px;
+  left: 282px;
+}
+
+.colorpicker_hsb_s {
+  background-image: url(../images/colorpicker/colorpicker_hsb_s.png);
+  top: 82px;
+  left: 282px;
+}
+
+.colorpicker_hsb_b {
+  background-image: url(../images/colorpicker/colorpicker_hsb_b.png);
+  top: 112px;
+  left: 282px;
+}
+
+.colorpicker_submit {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: url(../images/colorpicker/colorpicker_submit.png) top;
+  left: 322px;
+  top: 142px;
+  overflow: hidden;
+}
+
+.colorpicker_focus {
+  background-position: center;
+}
+
+.colorpicker_hex.colorpicker_focus {
+  background-position: bottom;
+}
+
+.colorpicker_submit.colorpicker_focus {
+  background-position: bottom;
+}
+
+.colorpicker_slider {
+  background-position: bottom;
+}
+
+/* Switch Toggle */
+/*-------------------------------------------------------------- */
+.carob-switch-toggle {
+  width: 80px;
+  height: 36px;
+  margin-bottom: 25px;
+  border: solid 1px #dfdfdf;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+  -webkit-transition: border 0.2s ease;
+  -moz-transition: border 0.2s ease;
+  -o-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+.carob-switch-toggle.state-on .carob-switch-overlay {
+  left: 0;
+}
+.carob-switch-toggle.state-on .carob-active-bg {
+  opacity: 1;
+}
+
+.carob-switch-overlay {
+  width: 124px;
+  height: 36px;
+  background: url("../images/switch-toggle.png");
+  position: absolute;
+  top: 0;
+  left: -44px;
+  z-index: 1;
+  -webkit-transition: left 0.2s ease;
+  -moz-transition: left 0.2s ease;
+  -o-transition: left 0.2s ease;
+  transition: left 0.2s ease;
+}
+
+.carob-switch-toggle .carob-active-bg {
+  width: 81px;
+  height: 37px;
+  background-color: #55c5e9;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  z-index: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+/* File */
+/*-------------------------------------------------------------- */
+.carob-file-button {
+  display: inline-block;
+  min-height: 32px;
+  margin-left: 10px !important;
+  padding-top: 1px;
+  line-height: 30px !important;
+}
+
+.carob-image-preview {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Gallery */
+/*-------------------------------------------------------------- */
+.carob-gallery {
+  margin-bottom: 20px;
+  padding: 20px 20px 5px 20px;
+  border: solid 1px #eaeaea;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.carob-gallery li {
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  padding: 5px;
+  border: solid 1px #eaeaea;
+  border-radius: 3px;
+  background-color: #ffffff;
+  float: left;
+  line-height: 0;
+}
+.carob-gallery .template {
+  display: none;
+}
+.carob-gallery .no-slides {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  float: none;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+/* Icon Picker */
+/*-------------------------------------------------------------- */
+.carob-font-icon-picker {
+  max-width: 595px;
+  margin-bottom: 20px;
+  padding: 0;
+  border: solid 1px #eaeaea;
+  border-radius: 5px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.carob-font-icons-list-wrap {
+  height: 265px;
+  overflow-y: auto;
+}
+
+.carob-font-icons-list {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.carob-font-icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 5px;
+  padding: 10px;
+  border: solid 2px #f8f8f8;
+  border-radius: 5px;
+  font-size: 1.5em;
+  line-height: 1.1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carob-font-icon:hover {
+  border-color: #55c5e9;
+}
+
+.carob-font-icon.is-active {
+  border-color: #55c5e9;
+  background-color: #55c5e9;
+  color: #ffffff;
+}
+
+.carob-font-icon-preview {
+  padding: 15px;
+  border-bottom: solid 2px #f1f1f1;
+  background-color: #f8f8f8;
+  font-size: 2em;
+}

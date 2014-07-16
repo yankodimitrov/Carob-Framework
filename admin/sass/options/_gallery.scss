@@ -1,0 +1,36 @@
+/* Gallery */
+/*-------------------------------------------------------------- */
+.carob-gallery {
+	margin-bottom: 20px;
+	padding: 20px 20px 5px 20px;
+	border: solid 1px $gray_60;
+	border-radius: 3px;
+	background-color: $gray_20;
+	overflow: hidden;
+	
+	li {
+		display: inline-block;
+		margin: 0 15px 15px 0;
+		padding: 5px;
+		border: solid 1px $gray_60;
+		border-radius: 3px;
+		background-color: #ffffff;
+		float: left;
+		line-height: 0;
+	}
+
+	.template {
+		display: none;
+	}
+
+	.no-slides {
+		width: 100%;
+		padding: 10px;
+		border: none;
+		background-color: transparent;
+		float: none;
+		font-size: 14px;
+		text-align: center;
+		line-height: 1.4em;
+	}
+}

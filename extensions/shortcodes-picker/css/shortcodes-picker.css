@@ -1,0 +1,88 @@
+/**
+ * Carob Shortcodes Picker
+ *
+ * @version  1.0
+ */
+.carob-shortcodes-group {
+	display: inline-block;
+	margin: 10px 0 5px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.carob-shortcodes-list {
+	display: block;
+	margin-bottom: 20px;
+	padding: 15px 15px 5px 15px;
+	border-radius: 5px;
+	border: dashed 2px #eaeaea;
+	overflow: hidden;
+}
+
+	.carob-shortcodes-list span {
+		display: inline-block;
+	}
+
+.carob-shortcode {
+	display: inline-block;
+	width: 75px;
+	margin: 0 10px 10px 0;
+	padding: 0 5px 10px 5px;
+	border-radius: 5px;
+	border: solid 2px #eaeaea;
+	line-height: 1.3em;
+	text-align: center;
+	cursor: pointer;
+}
+
+	.carob-shortcode:hover {
+		border-color: #55c5e9;
+	}
+
+	.carob-shortcode:active {
+		opacity: 0.7;
+	}
+
+.carob-edit-frame {
+	top: 90px;
+	left: 22%;
+	right: 22%;
+	bottom: 90px;
+}
+
+	.carob-edit-frame .media-frame-title {
+		border-bottom: 1px solid #dfdfdf;
+		box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+	}
+
+		.carob-edit-frame .media-frame-title h1 {
+			float: left;
+			line-height: 56px;
+		}
+
+	.carob-edit-frame .carob-shortcode-options {
+		margin: 0;
+		padding: 20px;
+		border: none;
+		border-radius: 0;
+		top: 57px;
+		background-color: #eaeaea;
+	}
+
+	.carob-edit-frame .carob-options {
+		min-height: 20px;
+	}
+
+	.carob-edit-frame .loader {
+		display: inline-block;
+		margin-top: 16px;
+		float: left;
+	}
+
+	.carob-edit-frame .media-toolbar {
+		border-top: solid 1px #dfdfdf;
+	}
+
+	.carob-edit-frame .media-frame-toolbar {
+		height: 61px;
+	}

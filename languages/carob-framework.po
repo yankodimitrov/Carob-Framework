@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Carob Framework\n"
+"POT-Creation-Date: 2014-07-15 13:46+0200\n"
+"PO-Revision-Date: 2014-07-15 13:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../admin/class-carob-admin.php:42
+#: ../includes/options/class-carob-gallery.php:77
+msgid "No images selected."
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:49
+msgid "Add New"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:50
+#: ../extensions/class-carob-taxonomy.php:39
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:51
+#: ../extensions/class-carob-taxonomy.php:37
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:52
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:53
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:54
+#: ../extensions/class-carob-taxonomy.php:34
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:55
+#, php-format
+msgid "No %s posts found"
+msgstr ""
+
+#: ../extensions/class-carob-custom-post-types.php:56
+#, php-format
+msgid "No %s posts found in Trash"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:35
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:36
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:38
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:40
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:41
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:42
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: ../extensions/class-carob-taxonomy.php:43
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-admin.php:35
+msgid "Options"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-picker.php:90
+msgid "There are no shortcodes!"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-picker.php:110
+msgid "Shortcode ID is not defined!"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-picker.php:121
+msgid "The shortcode does not exists!"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-picker.php:133
+msgid "This shortcode have no options!"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-picker.php:169
+msgid "Content"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/class-carob-shortcodes-picker.php:171
+msgid "Type here the shortcode content:"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/shortcodes/class-carob-highlight-shortcode.php:26
+msgid "Highlight"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/shortcodes/class-carob-highlight-shortcode.php:28
+msgid "Write the highlighted text in the shortcode content field below."
+msgstr ""
+
+#: ../extensions/shortcodes-picker/shortcodes/class-carob-highlight-shortcode.php:35
+msgid "Background Color"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/shortcodes/class-carob-highlight-shortcode.php:37
+msgid "Select the highlight background color:"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/shortcodes/class-carob-highlight-shortcode.php:45
+msgid "Text Color"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/shortcodes/class-carob-highlight-shortcode.php:47
+msgid "Select the highlight text color:"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/templates/shortcodes-list.php:4
+msgid ""
+"Place the cursor where you want to insert the shortcode and click on the "
+"desired shortcode from the list below:"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/templates/templates.php:16
+msgid "Shortcodes Picker"
+msgstr ""
+
+#: ../extensions/shortcodes-picker/templates/templates.php:34
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-select-sidebar.php:22
+msgid ""
+"There are no sidebars available. You can create one in Appearance &rarr; "
+"Sidebars."
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:41
+msgid "Please, enter a name for your sidebar."
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:42
+msgid "Sidebar with this name already exists!"
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:87
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:88
+msgid "Sidebars"
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:107
+msgid "There are no sidebars to save!"
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:141
+msgid "All custom sidebars are removed!"
+msgstr ""
+
+#: ../extensions/sidebars/class-carob-sidebars-admin.php:144
+msgid "All custom sidebars are saved!"
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:9
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:25
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:28
+msgid "Manage your custom sidebars."
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:40
+msgid "Add New Sidebar"
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:44
+msgid "Use an unique name for each custom sidebar."
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:48
+msgid ""
+"Before you delete a sidebar, remove or move all of its widgets. Otherwise "
+"widgets will be appended to the next available sidebar."
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:52
+msgid "Sidebar Name"
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:53
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:65
+msgid "Remove Custom Sidebars"
+msgstr ""
+
+#: ../extensions/sidebars/page-custom-sidebars.php:66
+msgid "Save Sidebars"
+msgstr ""
+
+#: ../extensions/sidebars/templates/templates.php:7
+msgid "Delete Sidebar"
+msgstr ""
+
+#: ../includes/class-carob-framework.php:48
+#, php-format
+msgid "There is no extension with %s as key."
+msgstr ""
+
+#: ../includes/class-carob-framework.php:69
+#, php-format
+msgid "There is no variable in registry with %s as key."
+msgstr ""
+
+#: ../includes/class-carob-options-factory.php:39
+msgid "[regsiter option] Incomplete option parameters"
+msgstr ""
+
+#: ../includes/options/class-carob-default-option.php:16
+#, php-format
+msgid ""
+"The [%s] option is not registered or does not inherit from Carob_Option."
+msgstr ""
+
+#: ../includes/options/class-carob-file.php:52
+msgid "Selected Image Preview"
+msgstr ""
+
+#: ../includes/options/class-carob-icon-picker.php:69
+msgid "There are no icon fonts available."
+msgstr ""
+
+#: ../includes/options/class-carob-icon-picker.php:104
+msgid "Icon font CSS file does not exists!"
+msgstr ""
+
+#: ../includes/options/class-carob-icon-picker.php:114
+msgid "There was an error while reading the font CSS file!"
+msgstr ""

@@ -1,0 +1,195 @@
+/*! Carob Framework */
+/*-------------------------------------------------------------- */
+
+/* General */
+/*-------------------------------------------------------------- */
+.carob-clear {
+	clear: both;
+}
+
+.carob-left {
+	float: left;
+}
+
+.carob-right {
+	float: right;
+}
+
+.carob-options--meta-box {
+	min-height: 100%;
+	margin: 12px 0 0 0;
+	padding: 20px 20px 0 20px;
+	border: solid 1px $gray_60;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+#poststuff .carob-options .carob-heading,
+.carob-heading {
+	margin: 0 0 10px 0;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+}
+
+#poststuff .carob-title {
+	margin-bottom: 0;
+	padding: 0;
+	border-bottom: 0;
+	font-size: 16px;
+	cursor: initial;
+
+	-webkit-user-select: all;
+	-moz-user-select: all;
+	-ms-user-select: all;
+	user-select: all;
+}
+
+.carob-line {
+	margin-bottom: 20px;
+	border-top: solid 2px $gray_40;
+}
+
+p.carob-description {
+	margin-bottom: 20px;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.carob-notice {
+	padding: 20px;
+	border-left: solid 10px $gray_60;
+	background-color: $gray_20;
+}
+
+.carob-notice--info {
+	border-color: $accent;
+}
+
+.carob-notification {
+	width: 360px;
+	height: 70px;
+	margin-left: -180px;
+	padding: 5px 20px;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: -90px;
+	z-index: 99999;
+
+	&.success {
+		background-color: $green;
+		color: #ffffff;
+	}
+
+	&.info {
+		background-color: $accent;
+		color: #ffffff;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+#wpbody-content .carob-admin-notice {
+	max-width: 1072px;
+	margin: 20px 0 0 0;
+}
+
+/* Options Pages Styling */
+.carob-page-wrap {
+	max-width: 1100px;
+	margin: 20px 20px 20px 0;
+	border: solid 1px $gray_80;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.carob-page-wrap--no-sidebar {
+	max-width: 820px;
+
+	.carob-page-content {
+		margin-left: 0;
+		border-left: none;
+	}
+}
+
+.carob-page-header {
+	padding: 20px 20px 0 20px;
+	border-bottom: solid 6px $accent;
+	border-radius: 5px 5px 0 0;
+	background-color: #ffffff;
+	
+	.title {
+		margin-top: 0;
+	}
+}
+
+.carob-header h3 {
+	margin-top: 0;
+}
+
+.carob-page-content-wrap {
+	min-height: 500px;
+	background-color: $gray_20;
+	position: relative;
+}
+
+.carob-page-content {
+	min-height: 500px;
+	margin-left: 189px;
+	padding: 20px 20px 0 20px;
+	border-left: solid 1px $gray_80;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.carob-toolbar {
+	padding: 20px;
+	border-top: solid 4px $gray_40;
+	border-radius: 0 0 5px 5px;
+	background-color: #ffffff;
+}
+
+.carob-page-sidebar {
+	width: 190px;
+	min-height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.carob-page-menu {
+	margin-top: 0;
+}
+
+.carob-menu-item {
+	margin-bottom: 0;
+	border-bottom: solid 1px #dfdfdf;
+	font-size: 14px;
+	
+	&.current,
+	&:hover {
+		border-right: solid 1px #ffffff;
+		background-color: #ffffff;
+	}
+
+	&.current a,
+	&:hover a {
+		color: #303030;
+	}
+
+	a {
+		display: block;
+		padding: 12px 12px 12px 20px;
+		color: #a5a5a5;
+		font-size: 14px;
+		text-decoration: none;
+	
+		&:active {
+			outline: none;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+/**
+ * Carob Shortcodes
+ *
+ * @version  1.0
+ */
+.highlight {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}

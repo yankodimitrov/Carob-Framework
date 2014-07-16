@@ -1,0 +1,53 @@
+/* Icon Picker */
+/*-------------------------------------------------------------- */
+.carob-font-icon-picker {
+	max-width: 595px;
+	margin-bottom: 20px;
+	padding: 0;
+	border: solid 1px $gray_60;
+	border-radius: 5px;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.carob-font-icons-list-wrap {
+	height: 265px;
+	overflow-y: auto;
+}
+
+.carob-font-icons-list {
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.carob-font-icon {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin: 5px;
+	padding: 10px;
+	border: solid 2px $gray_20;
+	border-radius: 5px;
+	font-size: 1.5em;
+	line-height: 1.1em;
+	text-align: center;
+	cursor: pointer;
+}
+
+	.carob-font-icon:hover {
+		border-color: $accent;
+	}
+
+	.carob-font-icon.is-active {
+		border-color: $accent;
+		background-color: $accent;
+		color: #ffffff;
+	}
+
+.carob-font-icon-preview {
+	padding: 15px;
+	border-bottom: solid 2px $gray_40;
+	background-color: $gray_20;
+	font-size: 2em;
+}
